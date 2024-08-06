@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(27, 27, 27);
+}
+h1, a{
+    color:white;
+    text-align: center;
+}
+.linha1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linha2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
