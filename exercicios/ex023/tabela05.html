@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome {
+            background-color: lightgray;
+        }
+
+        col.cgrupo {
+            background-image: url('https://conteudize.ai/blog/wp-content/uploads/2024/06/como-criar-prompts-para-geracao-de-imagens-com-ia.webp');
+            background-size: cover;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        <caption>Cadastro</caption>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="3">
+        </colgroup>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>João Martins</td>
+            <td>M</td>
+            <td class="num">38</td>
+            <td>Contador</td>
+        </tr>
+
+        <tr>
+            <td>Katia Lima</td>
+            <td>F</td>
+            <td class="num">23</td>
+            <td>Enfermeira</td>
+        </tr>
+
+        <tr>
+            <td>Lucas Portela</td>
+            <td>M</td>
+            <td class="num">26</td>
+            <td>Cozinheiro</td>
+        </tr>
+
+        <tr>
+            <td>Caio Rodrigues</td>
+            <td>M</td>
+            <td class="num">52</td>
+            <td>Militar</td>
+        </tr>
+
+        <tr>
+            <td>Eliadine Moraes</td>
+            <td>F</td>
+            <td class="num">38</td>
+            <td>Bancária</td>
+        </tr>
+
+        <tr>
+            <td>Ariana Moraes</td>
+            <td>F</td>
+            <td class="num">37</td>
+            <td>Boleira</td>
+        </tr>
+    </table>
+
+</body>
+</html>
