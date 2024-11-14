@@ -8,13 +8,20 @@
         div.container{
             background-color: aquamarine;
             display: flex;
+            flex-flow: row wrap;
         }
 
         div.item {
             background-color: blueviolet;
             border: 1px solid black;
+            flex-basis: 100px;
+            flex-shrink: 1;
+            flex-grow: 0;
             text-align: center;
-            padding: 10px;
+        }
+
+        div#teste {
+            flex-grow: 10;
         }
     </style>
 </head>
@@ -22,8 +29,8 @@
     <div class="container">
         <div class="item">A</div>
         <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
+        <div style="flex-grow: 2;" class="item">C</div>
+        <div id="teste" class="item">D</div>
         <div class="item">E</div>
         <div class="item">F</div>
         <div class="item">G</div>
